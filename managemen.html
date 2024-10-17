@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market Kucing - Transaksi</title>
+    <link rel="stylesheet" href="manajemen.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo-section">
+            <img src="image\icons8-cat-footprint-40.png" alt="Paw Icon" class="logo">
+            <h1>MARKET KUCING</h1>
+        </div>
+        <h2>MANAJEMEN BARANG</h2>
+    </div>
+
+    <div class="main-container">
+        <div class="sidebar">
+            <button>Manajemen barang</button>
+            <button>Manajemen pelanggan</button>
+            <button>Transaksi</button>
+            <button>Transaksi detail</button>
+        </div>
+
+        <div class="content">
+            <div class="form-section">
+                <form>
+                    <label for="id-transaksi">Id barang</label>
+                    <input type="text" id="id-barang" name="id-barang">
+                    
+                    <label for="id-pelanggan">Nama barang</label>
+                    <input type="text" id="nama barang" name="nama barang">
+                    
+                    <label for="tanggal">Harga</label>
+                    <input type="text" id="harga" name="harga">
+                    
+                    <label for="total">Stok</label>
+                    <input type="text" id="stok" name="stok">
+
+                </form>
+                <div class="buttons">
+                    <button type="button">Tambah</button>
+                    <button type="button">Simpan</button>
+                    <button type="button">Hapus</button>
+                </div>
+            </div>
+
+            <div class="table-section">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Id barang</th>
+                            <th>Nama barang</th>
+                            <th>Total</th>
+                            <th>Harga</th>
+                            <th>Stok</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Isi data transaksi di sini -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
